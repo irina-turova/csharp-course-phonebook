@@ -1,0 +1,57 @@
+<?xml version="1.0" standalone="yes"?>
+<friends>
+  <xs:schema id="friends" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="friends" msdata:IsDataSet="true" msdata:MainDataTable="friend" msdata:Locale="en-US">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="friend">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="id" type="xs:string" minOccurs="0" />
+                <xs:element name="name" type="xs:string" minOccurs="0" />
+                <xs:element name="phone" type="xs:string" minOccurs="0" />
+                <xs:element name="birthday" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <friend>
+    <id>0</id>
+    <name>Анна Постникова </name>
+    <phone>+7(902)73-84-553 </phone>
+    <birthday>01.05.1998 </birthday>
+  </friend>
+  <friend>
+    <id>1</id>
+    <name>Михаил Маркин</name>
+    <phone>+7(922)33-44-323</phone>
+    <birthday>21.08.1990</birthday>
+  </friend>
+  <friend>
+    <id>2</id>
+    <name>Семен Сидоров</name>
+    <phone>+7(950)34-23-112</phone>
+    <birthday>02.12.1991</birthday>
+  </friend>
+  <friend>
+    <id>3</id>
+    <name>Стас Симонов</name>
+    <phone>+7(912)23-23-456</phone>
+    <birthday>29.02.2000</birthday>
+  </friend>
+  <friend>
+    <id>4</id>
+    <name>Анна Михайлова</name>
+    <phone>+7(951)82-83-899</phone>
+    <birthday>12.12.2001</birthday>
+  </friend>
+  <friend>
+    <id>5</id>
+    <name>Стас Аршавин</name>
+    <phone>+7(965)90-00-000</phone>
+    <birthday>04.05.1996</birthday>
+  </friend>
+</friends>
